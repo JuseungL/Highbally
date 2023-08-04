@@ -153,7 +153,7 @@ router.post("/signup/check-id", async (req, res) => {
   }
 });
 
-//회원가입 - 닉네임 중복 확인
+//회원가입 - 닉네임 중복 확인.
 router.post("/signup/check-nickname", async (req, res) => {
   const body = req.body;
   try {
